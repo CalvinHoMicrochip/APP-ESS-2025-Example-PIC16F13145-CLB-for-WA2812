@@ -14,12 +14,8 @@ APP-ESS-2025 PIC32CM5164JH01048 的範例，除了 I2C， UART, CAN 的範例程
   * 多種 Security & Safety 功能，包含 Size-configurable immutable boot section in Flash for Secure Boot 
   * 2 個支援 CAN-FD 協議的Controller Area Network (CAN) Interfaces  
   * 完整的通信協定支援，包含 : USART, I2C, LIN Host/Client, SPI, RS485 ，PMBusTM, SMBusTM
-*
-*
-
-
-
-* 執行的結果被簡化如下 :
-  * LED1 顯示紅色、LED2 顯示綠色、LED3 顯示藍色
-  * 顯示的順序為 : Red -> Green -> Blue -> Green ，然後一直循環
-  * 您可以自行很輕易地修改為自己想要的顯示方式和調色
+* 正因如此，我們再次提供多個由淺入深的範例，包含以下的練習 :
+  * Timer & GPIO
+  * UART & I2C 控制 OLED、MCP9800A5、Lighting Sensor 
+  * CAN Communication
+  * LIN Communication
