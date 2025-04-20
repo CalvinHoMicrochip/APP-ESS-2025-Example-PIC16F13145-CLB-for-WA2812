@@ -15,8 +15,8 @@ APP-ESS-2025 PIC32CM5164JH01048 的範例，除了 I2C， UART, CAN 的範例程
   * 2 個支援 CAN-FD 協議的Controller Area Network (CAN) Interfaces  
   * 完整的通信協定支援，包含 : USART, I2C, LIN Host/Client, SPI, RS485 ，PMBusTM, SMBusTM
 * 正因如此，我們再次提供多個由淺入深的範例，包含以下的練習 :
-  * Timer & GPIO
-  * UART & I2C 控制 OLED、MCP9800A5、Lighting Sensor 
+  * PIC32CMJH_Startup : 最基礎的 Timer & GPIO 設定及使用
+  * PIC32CMJH_基礎周邊範例 : UART & I2C 控制 OLED、MCP9800A5、Lighting Sensor 
   * CAN Communication
   * LIN Communication
 * PIC32CMJH_基礎周邊範例 - 以下為此專案的 Harmony Project Builder 的使用物件
