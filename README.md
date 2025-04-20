@@ -19,3 +19,5 @@ APP-ESS-2025 PIC32CM5164JH01048 的範例，除了 I2C， UART, CAN 的範例程
   * UART & I2C 控制 OLED、MCP9800A5、Lighting Sensor 
   * CAN Communication
   * LIN Communication
+* PIC32CMJH_基礎周邊範例 - 以下為此專案的 Harmony Project Builder 的使用物件
+<img src="https://github.com/CalvinHoMicrochip/APP-ESS-2025-Example-for-PIC32CM5164JH01048/blob/main/APP_ESS_2025_Picture1.jpg" width="640px">
