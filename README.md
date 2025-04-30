@@ -21,3 +21,8 @@ APP-ESS-2025 PIC32CM5164JH01048 的範例，除了 I2C， UART, CAN 的範例程
   * LIN Communication
 * PIC32CMJH_基礎周邊範例 - 以下為此專案的 Harmony Project Builder 的使用物件
 <img src="https://github.com/CalvinHoMicrochip/APP-ESS-2025-Example-for-PIC32CM5164JH01048/blob/main/PIC32CM5164JH_Harmony_Project1.jpg" width="640px">
+
+* APP_ESS_2025 出廠測試程式
+  *  這是延續 PIC32CMJH_基礎周邊範例，再加上 CAN0 通信的範例。CAN0 被規劃為使用 Classic CAN, 125K, Standard ID 來簡化使用 CAN 時的設定，建立基本概念
+    *  PIC32CMJH 定時地將 ADC 所讀取的 VR 值以 CAN 的封包送出
+    *  處此之外，PIC32CMJH 也持續的監看 CAN 的接收，將 CAN SID = 0x200 的封包接收並解析，然後將對方的 ADC 讀值顯示於 OLED 
