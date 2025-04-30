@@ -17,7 +17,7 @@ APP-ESS-2025 PIC32CM5164JH01048 的範例，除了 I2C， UART, CAN 的範例程
 * 正因如此，我們再次提供多個由淺入深的範例，包含以下的練習 :
   * PIC32CMJH_Startup : 最基礎的 Timer & GPIO 設定及使用
   * PIC32CMJH_基礎周邊範例 : UART & I2C 控制 OLED、MCP9800A5、Lighting Sensor 
-  * CAN Communication
+  * APP_ESS_2025 出廠測試程式 - 包含 CAN Communication 的基礎實現
   * LIN Communication
 * PIC32CMJH_基礎周邊範例 - 以下為此專案的 Harmony Project Builder 的使用物件
 <img src="https://github.com/CalvinHoMicrochip/APP-ESS-2025-Example-for-PIC32CM5164JH01048/blob/main/PIC32CM5164JH_Harmony_Project1.jpg" width="640px">
